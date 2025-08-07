@@ -1,0 +1,72 @@
+
+[cursor]
+vi_mode_style = "Block"
+
+[cursor.style]
+shape = "Underline"
+
+[window]
+opacity = 0.8
+blur = true
+
+[env]
+
+
+[font]
+# macOS has a higher resolution (1680x1060)
+size = 10.0
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-<>\"\\s{-}\\^⟨⟩`]+"
+
+[hints.enabled.binding]
+key = "U"
+mods = "Control|Shift"
+
+[hints.enabled.mouse]
+enabled = true
+mods = "Control"
+
+[[keyboard.bindings]]
+command = "reset-and-clear.sh"
+key = "K"
+mods = "Control"
+
+[terminal.shell]
+program = "/usr/bin/nu"
+
+
+[window.dimensions]
+# macOS Retina (2560x1600) display with 2 terminals wide and 2 terminals high.
+columns = 159
+lines = 35
+
+[general]
+# Alacritty themes
+# Bright colors
+# - ~/projects/github/alacritty-theme/themes/hyper.yaml
+# - ~/projects/github/alacritty-theme/themes/monokai_charcoal.yaml
+# - ~/projects/github/alacritty-theme/themes/blood_moon.yaml
+# Too dark grey; hostname is hard to read
+# - ~/projects/github/alacritty-theme/themes/tomorrow_night_bright.yaml
+# Too dark of blue
+# - ~/projects/github/alacritty-theme/themes/campbell.yaml
+# - ~/projects/github/alacritty-theme/themes/xterm.yaml
+# Blueish background
+# - ~/projects/github/alacritty-theme/themes/falcon.yaml
+# - ~/projects/github/alacritty-theme/themes/iterm.yaml
+# Greyish backgrounds
+# - ~/projects/github/alacritty-theme/themes/omni.yaml
+# - ~/projects/github/alacritty-theme/themes/papercolor_dark.yaml
+# Washed out colors
+# - ~/projects/github/alacritty-theme/themes/terminal_app.yaml
+# - ~/projects/github/alacritty-theme/themes/atom_dark.yaml
+import = ["/home/work/projects/github/alacritty-theme/themes/monokai_charcoal.toml"]
+
+[terminal]

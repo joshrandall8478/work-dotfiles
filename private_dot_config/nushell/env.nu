@@ -150,7 +150,7 @@ $env.PATH = ($env.PATH | uniq)
 $env.TERM = "xterm-256color"
 
 # SOPS
-$env.SOPS_AGE_KEY_FILE = "/home/work/.config/sops/age/keys.txt"
+$env.SOPS_AGE_KEY_FILE = "/home/joshr/.config/sops/age/keys.txt"
 
 # Less options
 # Discord: https://discord.com/channels/601130461678272522/601130461678272524/1178387079449808967

@@ -1,0 +1,7 @@
+[Greeter][LnF][General]
+hideClockWhenIdle=true
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/joshr/.local/share/wallpapers/linux-neon-street-suse.jpg
+PreviewImage=/home/joshr/.local/share/wallpapers/linux-neon-street-suse.jpg
+SlidePaths=/home/joshr/.local/share/wallpapers/,/usr/share/wallpapers/

@@ -41,7 +41,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=450
 popupWidth=556
 
@@ -132,7 +132,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][7][Applets][13][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][2][Applets][7][Applets][14]
 immutability=1
@@ -189,14 +189,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=64
+PreloadWeight=55
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=35
+PreloadWeight=50
 
 [Containments][2][Applets][7][Applets][41][Configuration]
 PreloadWeight=42
@@ -326,7 +326,7 @@ plugin=org.kde.plasma.volume
 
 [Containments][26][Applets][32][Configuration]
 PreloadWeight=55
-popupHeight=406
+popupHeight=408
 popupWidth=556
 
 [Containments][26][Applets][32][Configuration][General]
@@ -398,7 +398,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][34][Applets][40][Configuration]
-popupHeight=406
+popupHeight=408
 popupWidth=556
 
 [Containments][34][Applets][40][Configuration][General]
@@ -409,4 +409,4 @@ AppletOrder=35;36;37;38;39;40
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/sysctl.txt,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831
+screenMapping=desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/sysctl.txt,0,1e203284-f193-4ab5-8caa-5d370dbfa831

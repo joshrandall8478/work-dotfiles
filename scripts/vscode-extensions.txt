@@ -5,6 +5,7 @@ github.copilot
 github.copilot-chat
 github.vscode-github-actions
 golang.go
+google.gemini-cli-vscode-ide-companion
 lakshits11.monokai-pirokai
 mhutchie.git-graph
 ms-azuretools.vscode-containers

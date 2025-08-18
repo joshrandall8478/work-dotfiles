@@ -4,12 +4,14 @@
 [Desktops]
 Id_1=50d60d0d-753c-49c9-a42b-f955b59ed284
 Id_2=c21276d3-7314-4c79-bf8a-dfe7902ceac3
-Id_3=50fb39c5-fa5f-4f3d-a399-4d07b08c2ead
-Number=3
+Number=2
 Rows=1
 
 [Effect-magiclamp]
 AnimationDuration=450
+
+[Effect-overview]
+BorderActivate=9
 
 [Plugins]
 magiclampEnabled=true
@@ -25,7 +27,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][50d60d0d-753c-49c9-a42b-f955b59ed284][4039f250-c2d9-4b2c-a389-860ee55d36d8]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][50d60d0d-753c-49c9-a42b-f955b59ed284][a3d213a4-5e47-4373-970c-10444db94582]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.46770833333333334},{"width":0.5322916666666604}]}

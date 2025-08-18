@@ -17,8 +17,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=697
+DialogWidth=1189
 
 [Containments][1][General]
 positions={"1024x768":[],"1920x1080":[]}
@@ -84,8 +84,8 @@ plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][33][Configuration]
 PreloadWeight=100
-popupHeight=416
-popupWidth=657
+popupHeight=332
+popupWidth=456
 
 [Containments][2][Applets][5]
 immutability=1
@@ -132,7 +132,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][7][Applets][13][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][2][Applets][7][Applets][14]
 immutability=1
@@ -147,7 +147,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][2][Applets][7][Applets][16][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][16][Configuration][ConfigDialog]
 DialogHeight=540
@@ -175,28 +175,28 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][21][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][2][Applets][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=55
+PreloadWeight=92
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=50
+PreloadWeight=42
 
 [Containments][2][Applets][7][Applets][41][Configuration]
 PreloadWeight=42
@@ -317,7 +317,8 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][26][Applets][31][Configuration]
-popupHeight=400
+PreloadWeight=55
+popupHeight=401
 popupWidth=560
 
 [Containments][26][Applets][32]
@@ -326,7 +327,7 @@ plugin=org.kde.plasma.volume
 
 [Containments][26][Applets][32][Configuration]
 PreloadWeight=55
-popupHeight=408
+popupHeight=413
 popupWidth=556
 
 [Containments][26][Applets][32][Configuration][General]
@@ -390,7 +391,8 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][34][Applets][39][Configuration]
-popupHeight=401
+PreloadWeight=55
+popupHeight=402
 popupWidth=560
 
 [Containments][34][Applets][40]
@@ -398,7 +400,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][34][Applets][40][Configuration]
-popupHeight=408
+popupHeight=413
 popupWidth=556
 
 [Containments][34][Applets][40][Configuration][General]
@@ -409,4 +411,4 @@ AppletOrder=35;36;37;38;39;40
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/sysctl.txt,0,1e203284-f193-4ab5-8caa-5d370dbfa831
+screenMapping=desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/sysctl.txt,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831

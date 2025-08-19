@@ -30,7 +30,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][50d60d0d-753c-49c9-a42b-f955b59ed284][a3d213a4-5e47-4373-970c-10444db94582]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.46770833333333334},{"width":0.5322916666666604}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4875},{"width":0.5124999999999995}]}
 
 [Tiling][50d60d0d-753c-49c9-a42b-f955b59ed284][d9fdb8cc-bf65-4cd3-8447-fd9a0fea3d3a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}

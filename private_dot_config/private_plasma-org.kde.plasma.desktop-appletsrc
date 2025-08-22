@@ -42,8 +42,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=100
-popupHeight=450
-popupWidth=556
+popupHeight=458
+popupWidth=552
 
 [Containments][2][Applets][19][Configuration][Appearance]
 customDateFormat=d
@@ -120,6 +120,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][2][Applets][7][Applets][10][Configuration]
+PreloadWeight=55
+
 [Containments][2][Applets][7][Applets][11]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
@@ -183,7 +186,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=15
+PreloadWeight=6
 
 [Containments][2][Applets][7][Applets][23]
 immutability=1
@@ -197,7 +200,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=42
+PreloadWeight=77
 
 [Containments][2][Applets][7][Applets][41][Configuration]
 PreloadWeight=42
@@ -329,7 +332,7 @@ plugin=org.kde.plasma.volume
 
 [Containments][26][Applets][32][Configuration]
 PreloadWeight=55
-popupHeight=413
+popupHeight=414
 popupWidth=556
 
 [Containments][26][Applets][32][Configuration][General]
@@ -402,7 +405,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][34][Applets][40][Configuration]
-popupHeight=413
+popupHeight=414
 popupWidth=556
 
 [Containments][34][Applets][40][Configuration][General]
@@ -413,4 +416,4 @@ AppletOrder=35;36;37;38;39;40
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831
+screenMapping=desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831

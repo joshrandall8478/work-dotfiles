@@ -15,7 +15,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.indentSize": "tabSize",
-  "editor.insertSpaces": false,
+  "editor.insertSpaces": true,
   "editor.rulers": [120],
   "editor.wordWrap": "bounded",
   "files.associations": {
@@ -109,7 +109,15 @@
   "terminal.integrated.defaultProfile.linux": "Nushell",
   "git.openRepositoryInParentFolders": "always",
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
-  "files.autoSave": "afterDelay",
   "git.alwaysSignOff": true,
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "nushell": false
+  },
+  "update.mode": "none",
+  "files.autoSave": "afterDelay"
 }

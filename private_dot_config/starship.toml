@@ -36,7 +36,7 @@ format = '[$symbol($version )]($style)'
 format = '[$symbol($version )]($style)'
 
 [python]
-symbol = '🐍 '
+symbol = ' '
 style = "blue bold"
 format = '[${symbol}${pyenv_prefix}(${version} ) (\($virtualenv\) )]($style)'
 
@@ -74,12 +74,14 @@ format = '[$hostname]($style) '
 
 [os]
 disabled=true
-style = "bold green"
+style = "bold dimmed purple"
 format='[$symbol($type) ]($style)'
 
-#[os.symbols]
-#Gentoo = "󰣨 "
-#Arch = "󰣇 "
+[os.symbols]
+Gentoo = "󰣨 "
+Arch = "󰣇 "
+Macos = " "
+Debian = " "
 
 [git_branch]
 style="yellow bold"

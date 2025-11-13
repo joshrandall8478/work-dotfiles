@@ -112,12 +112,16 @@
   "git.alwaysSignOff": true,
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
     "nushell": false
   },
   "update.mode": "none",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "[rust]": {
+    "editor.defaultFormatter": "jinxdash.prettier-rust"
+  },
   "files.autoSave": "afterDelay"
 }

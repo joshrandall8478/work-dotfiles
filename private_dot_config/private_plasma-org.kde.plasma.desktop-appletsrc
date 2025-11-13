@@ -44,7 +44,7 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=100
-popupHeight=472
+popupHeight=480
 popupWidth=552
 
 [Containments][2][Applets][19][Configuration][Appearance]
@@ -57,17 +57,13 @@ fontWeight=400
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][20]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=618
+popupHeight=644
 popupWidth=1012
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
@@ -87,7 +83,7 @@ plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][33][Configuration]
 PreloadWeight=100
-popupHeight=365
+popupHeight=377
 popupWidth=456
 
 [Containments][2][Applets][41]
@@ -100,14 +96,14 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=
 
 [Containments][2][Applets][41][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 activityId=
 formfactor=0
 immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.folder
-popupHeight=451
+popupHeight=453
 popupWidth=288
 wallpaperplugin=
 
@@ -136,6 +132,14 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][2][Applets][47]
+immutability=1
+plugin=org.kde.plasma.showdesktop
+
+[Containments][2][Applets][47][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -160,7 +164,7 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=494
+popupHeight=522
 popupWidth=444
 wallpaperplugin=org.kde.image
 
@@ -208,9 +212,6 @@ PreloadWeight=100
 DialogHeight=540
 DialogWidth=720
 
-[Containments][2][Applets][7][Applets][16][Configuration][WeatherStation]
-source=bbcukmet|weather|Ypsilanti, United States, US|5015688
-
 [Containments][2][Applets][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -247,14 +248,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=81
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=66
+PreloadWeight=58
 
 [Containments][2][Applets][7][Applets][41][Configuration]
 PreloadWeight=42
@@ -279,7 +280,7 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.pla
 shownItems=org.kde.plasma.battery
 
 [Containments][2][General]
-AppletOrder=3;5;43;42;44;6;33;7;41;19;20
+AppletOrder=3;5;43;42;44;6;33;7;41;19;47
 
 [Containments][21]
 ItemGeometries-1920x1080=
@@ -370,7 +371,7 @@ plugin=org.kde.plasma.volume
 
 [Containments][26][Applets][32][Configuration]
 PreloadWeight=65
-popupHeight=451
+popupHeight=470
 popupWidth=556
 
 [Containments][26][Applets][32][Configuration][General]
@@ -440,8 +441,8 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][34][Applets][40][Configuration]
-PreloadWeight=55
-popupHeight=449
+PreloadWeight=65
+popupHeight=469
 popupWidth=556
 
 [Containments][34][Applets][40][Configuration][General]

@@ -967,3 +967,5 @@ use docker/
 
 # Package module to download binaries
 use package/
+
+fastfetch -c ~/.smallfetch.jsonc

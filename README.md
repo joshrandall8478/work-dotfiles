@@ -4,7 +4,8 @@ These are my dotfiles that were created while working with NiceGuyIT. This is me
 ![My system](/assets/desktop.png)
 
 ## Dependencies
-> [!NOTE] work in progress
+> [!NOTE]
+> work in progress
 
 ### DE + Applications
 - KDE Plasma 6

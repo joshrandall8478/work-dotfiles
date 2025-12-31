@@ -1,12 +1,13 @@
-[Activities][LastVirtualDesktop]
-1e203284-f193-4ab5-8caa-5d370dbfa831=50d60d0d-753c-49c9-a42b-f955b59ed284
-
 [Desktops]
 Id_1=50d60d0d-753c-49c9-a42b-f955b59ed284
 Id_2=c21276d3-7314-4c79-bf8a-dfe7902ceac3
 Id_3=6212510c-ad3e-4497-809f-5fd3860a866f
 Number=3
 Rows=1
+
+[Effect-blur]
+BlurStrength=6
+NoiseStrength=4
 
 [Effect-magiclamp]
 AnimationDuration=450
@@ -140,6 +141,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][cd046fb1-b5b6-43cd-beb3-8a59fafa0d85][d9fdb8cc-bf65-4cd3-8447-fd9a0fea3d3a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Wayland]
+InputMethod=/usr/share/applications/org.freedesktop.IBus.Panel.Wayland.Gtk3.desktop
 
 [Xwayland]
 Scale=1

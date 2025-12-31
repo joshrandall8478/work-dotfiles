@@ -26,7 +26,7 @@ DialogWidth=1189
 positions={"1024x768":[],"1280x800":[],"1280x960":[],"1920x1080":[]}
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/joshr/.local/share/wallpapers/suse-chameleon.jpg
+Image=/home/joshr/projects/josh-dotfiles/dot_local/share/wallpapers/shrine.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -44,7 +44,7 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=100
-popupHeight=480
+popupHeight=498
 popupWidth=552
 
 [Containments][2][Applets][19][Configuration][Appearance]
@@ -63,7 +63,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=644
+popupHeight=670
 popupWidth=1012
 
 [Containments][2][Applets][3][Configuration][ConfigDialog]
@@ -83,7 +83,7 @@ plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][33][Configuration]
 PreloadWeight=100
-popupHeight=377
+popupHeight=391
 popupWidth=456
 
 [Containments][2][Applets][41]
@@ -103,12 +103,18 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.folder
-popupHeight=453
+popupHeight=459
 popupWidth=288
 wallpaperplugin=
 
+[Containments][2][Applets][41][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][41][Configuration][General]
 positions={"0x0":[],"1280x800":[],"1280x960":[],"1920x1080":[]}
+sortDesc=true
+sortMode=2
 url=file:///home/joshr/Downloads
 
 [Containments][2][Applets][42]
@@ -151,7 +157,7 @@ DialogWidth=720
 [Containments][2][Applets][5][Configuration][General]
 indicateAudioStreams=false
 interactiveMute=false
-launchers=applications:app.zen_browser.zen.desktop,applications:Alacritty.desktop,preferred://filemanager,applications:code.desktop,applications:com.spotify.Client.desktop,applications:com.discordapp.Discord.desktop,file:///var/lib/flatpak/exports/share/applications/net.cozic.joplin_desktop.desktop
+launchers=applications:zen-browser.desktop,applications:Alacritty.desktop,preferred://filemanager,applications:code.desktop,applications:spotify.desktop,applications:discord.desktop,applications:Joplin.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -164,7 +170,7 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=522
+popupHeight=552
 popupWidth=444
 wallpaperplugin=org.kde.image
 
@@ -248,14 +254,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=58
+PreloadWeight=42
 
 [Containments][2][Applets][7][Applets][41][Configuration]
 PreloadWeight=42
@@ -273,6 +279,7 @@ DialogHeight=1007
 DialogWidth=1918
 
 [Containments][2][Applets][7][General]
+disabledStatusNotifiers=ibus-ui-gtk3
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.battery
 hiddenItems=Xwayland Video Bridge_pipewireToXProxy,Proton Mail Bridge
 iconSpacing=1
@@ -297,7 +304,7 @@ wallpaperplugin=org.kde.image
 positions={"1920x1080":[]}
 
 [Containments][21][Wallpaper][org.kde.image][General]
-Image=/home/joshr/.local/share/wallpapers/suse-chameleon.jpg
+Image=/home/joshr/projects/josh-dotfiles/dot_local/share/wallpapers/shrine.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][22]
@@ -319,7 +326,7 @@ DialogWidth=720
 positions={"1920x1080":[]}
 
 [Containments][22][Wallpaper][org.kde.image][General]
-Image=/home/joshr/.local/share/wallpapers/suse-chameleon.jpg
+Image=/home/joshr/projects/josh-dotfiles/dot_local/share/wallpapers/shrine.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][26]
@@ -371,7 +378,7 @@ plugin=org.kde.plasma.volume
 
 [Containments][26][Applets][32][Configuration]
 PreloadWeight=65
-popupHeight=470
+popupHeight=486
 popupWidth=556
 
 [Containments][26][Applets][32][Configuration][General]
@@ -411,7 +418,8 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][34][Applets][37][Configuration]
-popupHeight=401
+PreloadWeight=60
+popupHeight=452
 popupWidth=560
 
 [Containments][34][Applets][37][Configuration][Appearance]
@@ -441,8 +449,8 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][34][Applets][40][Configuration]
-PreloadWeight=65
-popupHeight=469
+PreloadWeight=85
+popupHeight=487
 popupWidth=556
 
 [Containments][34][Applets][40][Configuration][General]
@@ -466,4 +474,4 @@ AppletOrder=45;36;37;38;39;40
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831
+screenMapping=desktop:/Home.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831,desktop:/trash.desktop,0,1e203284-f193-4ab5-8caa-5d370dbfa831

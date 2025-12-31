@@ -147,6 +147,7 @@ path add ($env.HOME | path join "projects" "dotfiles" "bin")
 path add ($env.HOME | path join "bin") # adds ~/bin to PATH
 path add "/usr/local/bin"
 path add "/usr/local/go/bin"
+path add ($env.home | path join ".cache" ".bun" "bin")
 $env.PATH = ($env.PATH | uniq)
 $env.TERM = "xterm-256color"
 

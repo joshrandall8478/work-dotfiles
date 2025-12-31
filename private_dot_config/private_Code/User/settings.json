@@ -123,5 +123,6 @@
   "[rust]": {
     "editor.defaultFormatter": "jinxdash.prettier-rust"
   },
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "claudeCode.preferredLocation": "panel"
 }
